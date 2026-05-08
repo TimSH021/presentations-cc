@@ -1,25 +1,30 @@
 # gtm-growth
 
-适用：GTM、营销、消费者增长、订阅生态、移动出行、客户参与、商业化演示。
+Use for GTM, marketing, consumer growth, subscription ecosystem, mobility,
+customer engagement, and commercialization decks.
 
-## 硬性门槛
+Hard gates:
 
-- 构建可见的增长循环或漏斗递进。
-- 连接触达、激活、参与、变现和留存。
-- 保留可识别的品牌元素，但不让品牌色盖过数据。
-- 仅使用已验证或用户提供的品牌资产。如果没有官方素材，用颜色、排版、布局、产品语言和来源数据表达品牌。
-- 当源数据支持时，包含细分、群组、客户或管线证明。
+- Build a visible growth loop or funnel progression.
+- Connect reach, activation, engagement, monetization, and margin or retention.
+- Preserve recognizable brand cues without letting brand color overpower data.
+- Use verified or user-provided identity assets only. If official marks,
+  mascots, app icons, or product screenshots are not verified, express brand
+  through color, typography, layout, product language, and sourced metrics.
+- Include segment, cohort, customer, or pipeline proof when the source supports
+  it.
 
-## 必要证明对象
+Required proof objects:
 
-- 增长循环/漏斗
-- 细分或群组表
-- 变现桥接图
-- 参与度或留存趋势
+- Growth loop/funnel.
+- Segment or cohort table.
+- Monetization bridge.
+- Engagement or retention trend.
 
-## 失败信号
+Failure signs:
 
-- 漏斗标签各阶段之间没有移动逻辑
-- 品牌模仿而非商业叙事
-- 未经授权的 logo、吉祥物、应用图标作为装饰
-- 营销主张没有量化证明
+- Funnel labels with no movement between stages.
+- Brand parody instead of business storytelling.
+- Unofficial logos, mascots, app icons, or pseudo-brand marks used as
+  decoration.
+- Marketing claims without quantified proof.

@@ -1,0 +1,71 @@
+{
+  "_comment": "Icon manifest for the deck. Records every icon, logo, and repeated asset mark with provenance.",
+  "_ALLOWED_SOURCE_TYPES": [
+    "official_brand_or_source_asset",
+    "native_editable_shape",
+    "lucide_or_selected_icon_library",
+    "editable_label_or_card",
+    "approved_clean_official_source_crop",
+    "imagegen_crop_last_resort"
+  ],
+  "items": [
+    {
+      "id": "icon-01",
+      "slides": [1, 3, 5],
+      "role": "kpi_indicator",
+      "source_type": "lucide_or_selected_icon_library",
+      "library": "lucide",
+      "icon_name": "TrendingUp",
+      "color": "#176B87",
+      "size": 24,
+      "approval_status": "approved",
+      "notes": "Used as KPI section marker accent"
+    },
+    {
+      "id": "icon-02",
+      "slides": [1],
+      "role": "brand_logo",
+      "source_type": "official_brand_or_source_asset",
+      "asset_path": "assets/logo.png",
+      "approval_status": "approved",
+      "notes": "Official company logo from brand kit"
+    },
+    {
+      "id": "icon-03",
+      "slides": [2, 4, 6],
+      "role": "section_marker",
+      "source_type": "native_editable_shape",
+      "approval_status": "approved",
+      "notes": "Built with python-pptx rectangles — small filled square marker"
+    },
+    {
+      "id": "icon-04",
+      "slides": [3],
+      "role": "generic_icon",
+      "source_type": "approved_clean_official_source_crop",
+      "asset_path": "assets/product-screenshot-crop.png",
+      "approval_status": "approved",
+      "notes": "Cropped from official product screenshot, verified by user"
+    },
+    {
+      "id": "icon-05",
+      "slides": [7],
+      "role": "decorative_label",
+      "source_type": "editable_label_or_card",
+      "approval_status": "approved",
+      "notes": "Editable text box styled as label badge"
+    }
+  ],
+  "last_resort_imagegen_crops": [
+    {
+      "id": "lrc-01",
+      "slides": [4],
+      "asset_path": "assets/hero-crop.png",
+      "source_type": "imagegen_crop_last_resort",
+      "approval_status": "approved_last_resort",
+      "approved_by_main_agent": true,
+      "not_logo_brand_mark_generic_icon_chart_label_or_ui_symbol": true,
+      "reason_no_better_source_exists": "Abstract hero visual — no official asset available. Imagegen crop used as decorative background only."
+    }
+  ]
+}

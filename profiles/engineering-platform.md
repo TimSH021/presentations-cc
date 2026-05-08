@@ -1,24 +1,30 @@
 # engineering-platform
 
-适用：开发者、AI、基础设施、数据、安全、技术平台类演示。
+Use for developer, infrastructure, AI, data, security, and technical platform
+decks.
 
-## 硬性门槛
+Hard gates:
 
-- 系统图必须准确，标签在简化为管理层术语后仍需保留技术含义。
-- 指标必须与架构绑定。
-- 优先"一个系统 → 一个组件 → 一个指标"的叙事，而非技术目录。
-- 连接线方向必须反映数据/调用/依赖流。
+- Preserve technical precision while reducing visual complexity.
+- Use system diagrams, dependency maps, sequence flows, latency/cost/SLO views,
+  or developer workflows as the core proof objects.
+- Keep executive-level claims above the diagram and technical labels inside the
+  diagram.
+- Do not translate technical concepts into vague business slogans.
+- Connector direction, dependency direction, and containment boundaries must be
+  technically correct, visually attached, and legible after rendering.
 
-## 必要证明对象
+Required proof objects:
 
-- 准确的技术系统图
-- 简化但不失真架构摘要
-- 平台规模、性能或采用数据与架构页挂钩
-- 技术到业务价值的映射
+- Architecture or workflow map.
+- Product proof slide with concrete capabilities.
+- Metric evidence tied to the technical system.
+- Risk, reliability, cost, or roadmap slide when relevant.
 
-## 失败信号
+Failure signs:
 
-- 架构图看起来准确但实际上连接线乱穿
-- 技术标签被过度简化为空话
-- 开发者细节淹没了管理层需要的故事
-- 缺少规模或性能证明
+- Boxes labeled only "AI layer", "data", or "platform" with no specificity.
+- Dense technical doc dumped onto a slide.
+- Claims that do not point to any diagram element.
+- Sequence / dependency diagrams with floating or ambiguous connectors.
+- Shared-role boxes that drift in size, padding, or alignment without meaning.

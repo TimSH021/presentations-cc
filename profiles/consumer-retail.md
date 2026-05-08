@@ -1,30 +1,59 @@
 # consumer-retail
 
-适用：消费品、零售、奢侈品、画册、客户关系、品牌活动、生活方式、旅游、食品、时尚、运动类演示。
+Use for consumer, retail, luxury, lookbook, clienteling, campaign, and
+brand-forward decks.
 
-## 硬性门槛
+Hard gates:
 
-- 尽可能使用官方或用户提供的素材。
-- 记录素材来源，不暗示占位图是最终素材。
-- 不要从零绘制或近似 logo、吉祥物、应用图标、签名标记、产品 UI。使用已验证素材或省略。
-- 构图应该像编辑精选，文本更少，图像层级更强。
+- Use official or user-provided assets wherever possible.
+- Record asset provenance and do not imply stock/placeholders are final assets.
+- Do not draw or approximate logos, mascots, app icons, signature marks, or
+  product UI from scratch. Use verified assets or omit them.
+- Composition should feel editorial and selective, with less copy and stronger
+  image hierarchy.
+- Client-facing copy must sound usable by staff or customers, not like an
+  internal strategy note.
 
-## 图片主导型主题门槛
+For personal or informal consumer prompts, match the audience before defaulting
+to executive polish. A deck for parents, family, friends, kids, home, pets, or a
+personal purchase decision should still be well-designed, but it should sound
+warm and human: use conversational titles, practical proof objects, and direct
+reassurance. Avoid corporate scorecards, faux KPIs, and boardroom language unless
+the user asks for that style.
 
-当 deck 涉及视觉可审视的主题——产品、时尚、美容、食品、旅行、室内、房产、人物、动物、运动等——不得使用程序化图形作为主视觉代表。
+## Image-Led Subject Gate
 
-程序化形状允许用于：图表、表格、示意图、标签、框架、裁剪遮罩、分隔线、地图、时间线和布局结构。
+Use this gate when the deck is about visually inspectable subjects: products,
+fashion, beauty, food, travel destinations, interiors, real estate, people,
+animals, sports/actions, art, events, lifestyle scenes, playful/kids visual
+storytelling, or similar consumer-facing subjects.
 
-## 必要证明对象
+Do not represent the primary subject with Python drawings, programmatic vector
+illustrations, or shape-built faux imagery. Use sourced imagery with provenance,
+user-provided assets, or imagegen.
 
-- 图片主导的 hero 页或视觉展示页
-- 产品/视觉理性说明
-- 受众或客户旅程页
-- 对外沟通模板（如需要）
+Programmatic shapes remain allowed for charts, tables, diagrams, labels, frames,
+crop masks, dividers, maps, timelines, and layout structure.
 
-## 失败信号
+Before sourcing or generating each visual, define its slide role, aspect ratio,
+crop, focal placement, and text-safe area. If text sits on the left, choose or
+generate imagery with the subject weighted right; if text overlays the image,
+require clean negative space.
 
-- 低质量裁剪
-- 未经验证或仿制的品牌资产
-- 没有具体产品的装饰性 moodboard
-- 对外文案如内部策略笔记
+Do not reuse the same non-background image more than once by default. Image-led
+decks need both main concept visuals and supporting/decorative visuals, with
+asset provenance recorded in source notes.
+
+Required proof objects:
+
+- Image-led hero or look page.
+- Product/look rationale.
+- Audience or client journey slide.
+- Outreach template when requested.
+
+Failure signs:
+
+- Low-quality crops.
+- Unverified or lookalike identity assets.
+- Decorative moodboard without concrete products.
+- Generic appointment copy.

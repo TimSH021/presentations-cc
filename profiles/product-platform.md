@@ -1,27 +1,31 @@
 # product-platform
 
-适用：SaaS、产品、平台、安全、工作流、生态类演示。
+Use for SaaS, product, platform, security, workflow, and ecosystem decks.
 
-## 硬性门槛
+Hard gates:
 
-- 展示产品系统，而非功能列表。
-- 每个能力必须关联采用、扩展、变现、效率或客户质量。
-- 避免通用架构框。标签必须足够具体，如果搬到另一家公司就不成立。
-- 使用小量重复的图表原语，让整套 deck 有统一风格。
-- 连接线、通道和容器必须有明确语义；如果观众说不出某条线、箭头、框的含义，删除或重建。
+- Show the product system, not a list of features.
+- Tie each capability to adoption, expansion, monetization, efficiency, or
+  customer quality.
+- Avoid generic architecture boxes. Labels must be concrete enough that the
+  diagram would fail if moved to another company.
+- Use a small set of recurring diagram primitives so the deck feels authored.
+- Connectors, lanes, and containers must have explicit semantics; if a viewer
+  cannot say what a line, arrow, or box means, remove or rebuild it.
 
-## 必要证明对象
+Required proof objects:
 
-- 平台地图或工作流架构
-- 用例或客户旅程可视化
-- 采用/扩展证明
-- 产品到财务的关联页
-- 路线图或战略方向页（如需要）
+- Platform map or workflow architecture.
+- Use-case or customer journey visual.
+- Adoption/expansion proof.
+- Product-to-financial linkage slide.
+- Roadmap or strategic direction slide when asked.
 
-## 失败信号
+Failure signs:
 
-- 重复的功能卡片网格
-- 图表标签笼统如"AI""数据""平台"
-- 产品页与业务成果脱节
-- 流程图箭头悬浮、穿过无关对象
-- 框看起来对齐装饰但未编码真实产品系统
+- Repeated feature-card grids.
+- Diagrams with vague labels such as "AI", "Data", "Platform" only.
+- Product slides disconnected from business outcomes.
+- Flow diagrams whose arrows float, cross unrelated objects, or imply a
+  sequence the content does not support.
+- Boxes that look aligned decoratively but do not encode a real product system.

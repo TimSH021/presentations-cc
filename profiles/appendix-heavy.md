@@ -1,23 +1,24 @@
 # appendix-heavy
 
-适用：密集表格、源数据包、披露、财务附录、支撑材料。
+Use for dense tables, source packs, disclosures, financial appendices, and
+supporting-detail sections.
 
-## 硬性门槛
+Hard gates:
 
-- 小号文字在渲染预览中必须可读。
-- 使用稳定的表格语法：表头、行线、对齐数字、来源标签。
-- 长附录必须添加索引、分区标签或页码标记。
-- 不要把答案藏在一堵小字墙里。
+- Small type must remain readable in rendered previews.
+- Use a stable table grammar: header, row rules, aligned numbers, source labels.
+- Add index, section tabs, or page markers for long appendices.
+- Do not hide the answer inside a wall of tiny text.
 
-## 必要证明对象
+Required proof objects:
 
-- 附录索引或分区页
-- 密集但可读的表格
-- 来源/披露页
-- 告诉读者为什么需要这个附录的说明
+- Appendix index or section divider.
+- Dense but readable table.
+- Source/disclosure page.
+- Callout that tells the reader why the appendix exists.
 
-## 失败信号
+Failure signs:
 
-- 漂亮但不可读的表格
-- 缺少来源日期或定义
-- 无导航的附录
+- Pretty but unreadable tables.
+- Missing source dates or definitions.
+- Appendix with no navigation.

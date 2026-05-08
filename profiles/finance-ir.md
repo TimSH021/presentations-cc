@@ -1,28 +1,33 @@
 # finance-ir
 
-适用：财报、投资者演示、经营分析、财务审查。
+Use for earnings decks, investor presentations, operating reviews, and
+financial analysis decks.
 
-## 硬性门槛
+Hard gates:
 
-- 仅使用已报告数字或从已报告数字明确标注的计算结果。
-- 保持单位、财期、GAAP/non-GAAP 标签、定义可见。
-- 先建数据源账本，再设计图表。
-- 优先 table-first 和 bridge-first 幻灯片，而非装饰性 KPI 网格。
-- 每个图表标题必须陈述数据证明的结论。
-- 桥接图必须视觉上可核对且数值上正确。
-- 引用财报/投资者演示/指引时，必须包含披露/来源附录。
+- Use only reported figures or clearly labeled calculations from reported
+  figures.
+- Keep units, fiscal periods, GAAP/non-GAAP labels, and definitions visible.
+- Build a source ledger before designing charts.
+- Prefer table-first and bridge-first slides over decorative KPI grids.
+- Every chart title must state the conclusion the data proves.
+- Bridges must reconcile visually and numerically; combination charts must make
+  scale logic explicit and preserve continuous series geometry after render.
+- Include disclosure/source appendix when the deck cites earnings releases,
+  investor decks, or guidance.
 
-## 必要证明对象
+Required proof objects:
 
-- 含单位和来源期间的 KPI 摘要
-- 收入/结构表或桥接图
-- 利润与现金流图表
-- 客户/积压/展望证明（如相关）
+- KPI summary with units and source period.
+- Revenue/mix table or bridge.
+- Margin and cash profile chart.
+- Customer/backlog/outlook proof where relevant.
 
-## 失败信号
+Failure signs:
 
-- 漂亮图表但数值无支撑
-- 通用型"增长强劲"标题
-- 多种指标共享同一坐标轴却无理由
-- 双编码图表中线条、标签、坐标轴暗示的关系与报告数据不符
-- 密集表格缺脚注
+- Pretty chart with unsupported values.
+- Generic "growth is strong" title.
+- Multiple metrics sharing one axis without a reason.
+- Dual-encoding charts whose lines, labels, or axes imply a relationship the
+  reported figures do not support.
+- Footnotes missing from dense tables.
